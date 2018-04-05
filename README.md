@@ -13,10 +13,12 @@ Install other depencies if needed.
 We have Preprocessed data.  
 
 Files :   
-feature_extraction.py - Takes an input string and genearates all the feature required for training and testing.   
-classifierSVM.p - SVM classifier which is trained by the training file is stored here   
-dictionaryFileSVM.p - This is the dictionary vector object to convert from the lists of feature value to vectors to train or test  
-Similarl files for other algorithms are stored  
+feature_extraction.py - Takes a tweet as input and genearates a feature-value mapping list.
+traintestSVM.py - It first generates the features for all tweets and then train a classifier using these features.  It outputs a report showing the accuracy of the classifier.
+classifierSVM.p - SVM classifier which is trained by the training file.   
+dictionaryFileSVM.p - This is the dictionary vector object to convert from the lists of feature value to vectors to train
+ironyDetection.py - Takes an input from the user and gives the ironic score of the given statement.
+Similar files for 3 classification algorithms are stored.
   
 #### 3. Running the Program  
   
@@ -24,7 +26,7 @@ Detect Irony :
   
 Approach One  
 ```python traintestSVM.py```  // Run SVM algorithm  
-In the similar run other algorithms  
+In a similar way run other algorithms  
   
 Approach Two  
 ```python classification.py```
@@ -35,5 +37,5 @@ For Ironic Score :
 for example :  
 $ python IronyDetection.py  
 Enter the tweet to get the ironic score or type exit to quit  
-Isn't it great when your girlfriend dumps you  
-24  
+"Oh how I love being ignored"
+87 
