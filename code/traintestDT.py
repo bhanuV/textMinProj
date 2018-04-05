@@ -11,8 +11,8 @@ import itertools
 import matplotlib.pyplot as plt
 
 print('Pickling out')
-ironicData = np.load('preprocessed_sarcasm_one.npy')
-nonIronicData = np.load('preprocessed_non_sarcasm_one.npy')
+ironicData = np.load('ironic_semeval.npy')
+nonIronicData = np.load('nonironic_semeval.npy')
 print('Number of ironic tweets :', len(ironicData))
 print('Number of non-ironic tweets :', len(nonIronicData))
 
