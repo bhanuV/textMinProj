@@ -1,9 +1,9 @@
 ## Irony Detection in English Tweets  
   
 ### Installation  
-#### 1. Download the system  
+#### 1. Download the project    
   
-Download the system with the following command  
+Download the project with the following command  
 ``` https://github.com/bhanuV/textMinProj.git ```  
   
 #### 2. Install dependencies  
